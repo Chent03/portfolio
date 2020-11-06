@@ -1,0 +1,68 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+- company:
+    name: dv01
+    url: "https://dv01.co/"
+    location: New York
+  positions:
+  - designation: Senior Front End Engineer
+    start: Mar 2019
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Primary frontend developer on a green field project which eventually led to successful sale of product.
+    - Developed a text editor with auto-completion, auto-suggestion, and syntax highlighting for an in-house language.
+    - Improved application’s data visualization by migrating new and existing tables to ag-grid.
+    - Helped redesign the front-end’s state management architecture.
+    - Refactored legacy JavaScript components to TypesScript and added test coverage.
+
+- company:
+    name: Noble Markets
+    url: ""
+    location: New York
+  positions:
+  - designation: Software Developer
+    start: Sept 2017
+    end: Oct 2018
+    responsibilities:
+    - Developed an onboarding application using a MEAN stack and WebSocket to facilitate clients joining Noble’s platform.
+    - Built out new features such as Cryptocurrency Custody, which allows clients to deposit / withdraw to/from an external third-party wallet account, to a real-time post-trade application.
+    - Assisted in developing a RESTful API with Node.js and Express.js for external clients to connect with Noble.
+
+- company:
+    name: Google Applied CS with Android
+    url: "https://appliedcsskills.withgoogle.com/"
+    location: New York
+  positions:
+  - designation: Student Facilitator
+    start: Oct 2016
+    end: Dec 2016
+    responsibilities:
+    - Facilitated in delivering weekly workshops on campus, in which students develop games in Android using data structures and algorithms.
+    - Provided guidance to students in applying concepts.
+    - Communicated and coordinated with Google employees to help improve content.
+
+- company:
+    name: The Mount Sinai Hospital
+    url: "https://www.mountsinai.org/"
+    location: New York
+  positions:
+  - designation: Associate Researcher
+    start: Mar 2013
+    end: Jul 2015
+    responsibilities:
+    - Analyzed the laboratory’s extensive genotyping data.
+    - Converted genotyping records from paper to computer based.
+    - Conducted experiments and obtained results in a timely manner.
+    - Contributed to both Ph.D. students and Postdoctoral Fellows in various experiments.

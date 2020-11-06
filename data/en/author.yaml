@@ -1,0 +1,16 @@
+# some information about you
+name: "Tony Chen"
+nickname: "Tony"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/avatar.jpg"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "tochen1231@gmail.com"
+  phone: "+16465731388"
+
+# some summary about what you do
+summary:
+  - I am a Web Developer
+  - I am a self starter
+  - I love creating apps
